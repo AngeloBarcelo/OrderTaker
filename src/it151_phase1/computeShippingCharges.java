@@ -5,25 +5,25 @@
  */
 package it151_phase1;
 
-/**
- *
- * @author Truth
+/*
+ * @author Angelo Barcelo 
+ * angelobarcelo@hotmail.com
  */
 public class computeShippingCharges
-    {
+{
     private Double shippingCost; 
     
     void shippingCostSet (double shippingCostToo)
-        {
-        shippingCost = shippingCostToo;
-        }
-    double shippingCostGet()
-        {
-        return shippingCost;
-        }
-    
-computeShippingCharges(double shippingCostNew)
     {
-      shippingCost = shippingCostNew *1.50;
+        shippingCost = shippingCostToo;
+    }
+    double shippingCostGet()
+    {
+        return shippingCost;
+    }
+    
+    computeShippingCharges(double shippingCostNew)
+    {
+        shippingCost = shippingCostNew *1.50;
     }
 }
