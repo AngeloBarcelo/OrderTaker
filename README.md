@@ -1,0 +1,3 @@
+# Order Taker
+
+The best way to describe this as my take on an order taker/placer on a random website. It asks the user for their name, a product id, product name, and product price. The program validates some of the information and will allow the user to enter as many products as they would like to order. Then when they are all done adding items to their order. The program displays the total price of all the items, and the shipping cost. The message displayed to the user at the end depends on the total dollar amount the order was placed for. If less than $200 they see one goodbye message. If the order totaled more than $200 they see a different goodbye message.
