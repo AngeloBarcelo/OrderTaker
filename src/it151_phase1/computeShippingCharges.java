@@ -21,7 +21,7 @@ public class computeShippingCharges
     { 
         return shippingCost;
     }
-    
+     
     computeShippingCharges(double shippingCostNew)
     {
         shippingCost = shippingCostNew *1.50;
