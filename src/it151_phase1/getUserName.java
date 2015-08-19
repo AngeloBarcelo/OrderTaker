@@ -17,7 +17,7 @@ class getUserName
     {
         return userName;
     }
-    
+      
     getUserName(String getUserName1)
     {
         userName = getUserName1;
