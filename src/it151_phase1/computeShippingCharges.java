@@ -18,7 +18,7 @@ public class computeShippingCharges
         shippingCost = shippingCostToo;
     }
     double shippingCostGet()
-    {
+    { 
         return shippingCost;
     }
     
